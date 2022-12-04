@@ -1,0 +1,139 @@
+/****** General Styles ******/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  border: 1px solid red;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/****** Navbar Styles ******/
+
+.navbar {
+  background: #3c3c3c;
+  padding: 2.5rem 2rem;
+}
+
+.nav-title {
+  color: #ed4080;
+  font-family: Kaushan Script;
+  font-size: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-link {
+  border-bottom: 1px solid #aaa;
+  color: white;
+  padding: 1rem 0.5rem;
+}
+
+/****** Hero Styles ******/
+
+.hero {
+  align-items: center;
+  background: url("images/hero-bg.jpg") no-repeat center;
+  background-size: cover;
+  display: flex;
+  height: 60%;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.hero-primary-text {
+  color: white;
+  font-family: Kaushan Script;
+  font-size: 2rem;
+}
+
+.hero-secondary-text {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  width: 80%;
+}
+
+.hero-button {
+  padding: 1rem 3rem;
+  background-color: #00c1ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+/****** Services Styles ******/
+
+.services {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 4rem 2rem;
+}
+
+.services-main {
+  text-align: center;
+  width: 80%;
+}
+
+.services-title {
+  font-size: 1.8rem;
+}
+
+.services-description {
+  color: #9f9e9e;
+  font-size: 1.3rem;
+  padding-top: 0.5rem; 
+}
+
+.service-group {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  width: 90%;
+}
+
+.service-icon {
+
+}
+
+.service-subtitle {
+  color: black;
+  font-size: 1.1rem;
+}
+
+.service-sub-desc {
+  color: #9f9e9e;
+  font-size: 1rem;
+}
+
+.service-button {
+  color: white;
+  background-color: #ce1d64;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.7rem;
+  padding: 0.5rem 0.8rem;
+}
+}
+
+
+
